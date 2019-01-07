@@ -1,0 +1,72 @@
+/* pages/posts/post-detail/post-detail.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop {
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+
+.shop text {
+  font-size: 30rpx;
+  color: #426082;
+  border-bottom: 1px solid;
+  padding: 0 20rpx 10rpx 20rpx;
+}
+
+swiper {
+  text-align: center;
+  height: 680rpx;
+}
+
+swiper image {
+  width: 600rpx;
+  height: 600rpx;
+  border: 1px solid #ccc;
+}
+
+.author-data {
+  margin: 0 20rpx;
+}
+
+.author-data text {
+  display: block;
+}
+
+.shop-title{
+  font-size: 30rpx;
+}
+
+.shop-head {
+  color: #fb0a0c;
+  font-size: 30rpx;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+}
+
+.shop-content{
+  line-height: 40rpx;
+}
+
+.shop-one{
+  color: #fb0a0c;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+
+.pro-deatail{
+  margin: 10rpx 0;
+}
+
+.contact{
+  text-align: center;
+  height: 100px;
+}
+
+.contact text{
+  line-height:100px;
+  font-size:40rpx;
+}

@@ -1,0 +1,13 @@
+<template name="postItem">
+  <view class='post-container'>
+    
+    <image class='post-img' src='{{imgSrc}}'></image>
+    <text class='post-content'>{{content}}</text>
+    <view class='post-like'>
+      
+      <!--<text class='post-like-font'>价格：</text>
+      
+      <text class='post-like-font'>{{reading}}</text>-->
+    </view>
+  </view>
+</template>

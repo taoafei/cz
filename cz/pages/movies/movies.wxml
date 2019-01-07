@@ -1,0 +1,11 @@
+<view class='contact-img'>
+  <image src='/images/logo.png'></image>
+</view>
+<view class='contact-text'>
+  <text>联系我们</text>
+</view>
+<view class='contact-bot'>
+  <text>更多车载产品：</text>
+  <text>https://shop112453394.taobao.com/</text>
+  <button bindtap='tel' open-type='contact'>拨打电话：18682071935</button>
+</view>

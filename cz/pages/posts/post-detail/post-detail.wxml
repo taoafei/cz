@@ -1,0 +1,40 @@
+<view class='container'>
+  <view class='shop'>
+    <text>商品</text>
+  </view>
+  <swiper indicator-dots='true' autoplay='true' interval='5000' current='1'>
+    <swiper-item>
+      <image src='{{postData.imgSrc1}}'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='{{postData.imgSrc2}}'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='{{postData.imgSrc3}}'></image>
+    </swiper-item>
+  </swiper>
+  <view class='author-data'>
+    <text class='shop-title'>商品详情</text>
+    <view class='pro-deatail'>
+      <text class='shop-head'>一、产品介绍</text>
+      <text class='shop-content'>{{postData.detail}}</text>
+      <text class='shop-content'>{{postData.detail1}}</text>
+      <text class='shop-content'>{{postData.detail2}}</text>
+      <text class='shop-content'>{{postData.detail3}}</text>
+    </view>
+    <view class='pro-deatail'>
+      <text class='shop-head'>二、主要功能</text>
+      <text class='shop-content shop-one'>{{postData.detail0}}</text>
+      <text class='shop-content'>{{postData.detail01}}</text>
+      <text class='shop-content shop-one'>{{postData.detail02}}</text>
+      <text class='shop-content'>{{postData.detail03}}</text>
+      <text class='shop-content shop-one'>{{postData.detail04}}</text>
+      <text class='shop-content'>{{postData.detail05}}</text>
+    </view>
+    <view class='contact'>
+      <text bindtap='tel'>联系我们：18682071935</text>
+    </view>
+
+  </view>
+  
+</view>

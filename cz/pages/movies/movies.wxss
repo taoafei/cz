@@ -1,0 +1,44 @@
+/* pages/movies/movies.wxss */
+page{
+  background-image: url(http://taoafei.xin/images/bj.jpg);
+  background-size: 100% 100%; 
+}
+
+.contact-img image{
+  width: 100px;
+  height: 32px;
+  margin-left: 20rpx;
+}
+
+.contact-text{
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.contact-text text{
+  font-size: 60rpx;
+  color: #fff;
+}
+
+.contact-bot{
+  width: 74%;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%);
+  border:1px solid #ccc;
+  text-align: center;
+}
+
+.contact-bot text{
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.contact-bot button{
+  padding: 0 10px;
+  background-color: #426082;
+  color: #fff;
+}
